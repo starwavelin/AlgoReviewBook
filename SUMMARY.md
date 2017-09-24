@@ -6,5 +6,7 @@
 * [Chapter 04：Graph](ch04.md)
 * [Chapter 05：Backtracking](ch05.md)
 * [Chapter 06：Dynamic Programming](ch06.md)
-* [Chapter 07: Other Types of Trees](ch07.md)
+* [Chapter 07：Other Types of Trees](ch07.md)
+* [Chapter 08：Data Structure Design](ch08.md)
+* [Chapter 09：Bitwise](ch09.md)
 
