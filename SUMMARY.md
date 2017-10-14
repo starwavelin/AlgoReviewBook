@@ -1,6 +1,11 @@
 # Summary
 
 * [Chapter 01：Linear Solution Space](ch01.md)
+	* Stack 类题目
+	* Hash 类题目
+	* Two Pointers 解法
+	* Array 输入类
+	* LinkedList 类
 * [Chapter 02：Binary Solution Space](ch02.md)
 * [Chapter 03：Sorting](ch03.md)
 * [Chapter 04：Graph](ch04.md)
