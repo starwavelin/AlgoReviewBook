@@ -2,7 +2,7 @@
 
 * [Chapter 01：Linear Solution Space](ch01.md)
 	* Stack 类题目
-		* Best Practice of Wrting Stack in Java(ch01/stack/bestpractice.md)
+		* [Best Practice of Wrting Stack in Java](ch01/stack/bestpractice.md)
 	* Hash 类题目
 	* Two Pointers 解法
 	* Array 输入类
