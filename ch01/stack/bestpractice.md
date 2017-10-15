@@ -1,6 +1,6 @@
 # Best Practice of Wrting Stack in Java
 
-In the past I always used ```Stack``` class from Java API to represent a stack. However, it is not recommended in the industry because ```Stack``` is thread-safe, which will cause overhead. Instead, industry usually uses ```[ArrayDeque](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayDeque.html)``` to implement a stack.  
+In the past I always used ```Stack``` class from Java API to represent a stack. However, it is not recommended in the industry because ```Stack``` is thread-safe, which will cause overhead. Instead, industry usually uses [```ArrayDeque```](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayDeque.html) to implement a stack.  
 
 ### Initialization Old Way
 ```java 
