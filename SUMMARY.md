@@ -8,6 +8,9 @@
 	* Array 输入类
 	* LinkedList 类
 * [Chapter 02：Binary Solution Space](ch02.md)
+	* Binary Search 类题目
+		* [二分搜索模板](ch02/binarySearch/template.md)
+	* Binary Tree 类题目
 * [Chapter 03：Sorting](ch03.md)
 * [Chapter 04：Graph](ch04.md)
 * [Chapter 05：Backtracking](ch05.md)
