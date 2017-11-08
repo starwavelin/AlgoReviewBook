@@ -14,6 +14,7 @@
 	* Binary Tree 类题目
 		* [BFS模板](ch02/binaryTree/bfs.md)
 		* [DFS模板](ch02/binaryTree/dfs.md)
+		* [Binary Tree Max Path Sum from Root](ch02/binaryTree/binaryTreeMaxPathSumFromRoot.md)
 * [Chapter 03：Sorting](ch03.md)
 * [Chapter 04：Graph](ch04.md)
 * [Chapter 05：Backtracking](ch05.md)
