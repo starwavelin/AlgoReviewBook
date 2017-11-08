@@ -12,6 +12,8 @@
 		* [二分搜索模板](ch02/binarySearch/template.md)
 		* [二维一维数组的转换](ch02/binarySearch/2D-1D.md)
 	* Binary Tree 类题目
+		* [BFS模板](ch02/binaryTree/bfs.md)
+		* [DFS模板](ch02/binaryTree/dfs.md)
 * [Chapter 03：Sorting](ch03.md)
 * [Chapter 04：Graph](ch04.md)
 * [Chapter 05：Backtracking](ch05.md)
