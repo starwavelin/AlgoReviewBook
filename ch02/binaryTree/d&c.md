@@ -19,7 +19,7 @@ public ReturnType f(Node root, List<E> res) {
 ```
 
 ### Example
-One example is [Binary Tree Max Path Sum From Root](binaryTreeMaxPathSumFromRoot.html)
+One example is [Binary Tree Max Path Sum From Root](binaryTreeMaxPathSumFromRoot.md)
 
 ### Further
 Divide and Conquer methodology is like MapReduce, where map is "divide" and reduce is "conquer".
