@@ -1,6 +1,6 @@
 # Selection Sort
 
-### What is Bubble Sort?
+### What is Selection Sort?
 You can review from [here](http://blog.csdn.net/han_xiaoyang/article/details/12163251) and look for *四、选择排序*  
 
 ### 口诀
@@ -28,4 +28,4 @@ public void sort(int[] nums) {
 ### Notes
 Time Complexity:  
 Worst: O(n^2)  Average: O(n^2)  Best: O(n^2)  
-三者相同的原因：因为无论何种情况每次取min都要扫描余下的数，扫描n-1 + ... + n = n(n-1)/2 次
+三者相同的原因：因为无论何种情况每次取min都要扫描余下的数，扫描```(n-1) + (n-2)... + 1 = n(n-1)/2``` 次

@@ -14,3 +14,7 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# project config files
+*.sublime-project
+*.sublime-workspace
