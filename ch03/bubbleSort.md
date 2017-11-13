@@ -4,7 +4,7 @@
 You can review from [here](http://blog.csdn.net/han_xiaoyang/article/details/12163251) and look for *五、冒泡排序*  
 
 ### 口诀
-两两比较，大数逐步浮动到后面。  
+两两比较，大数先排好到最后，小数逐步浮向前。  
 
 ### Code
 ```java
@@ -21,5 +21,5 @@ public void sort(int[] nums) {
 }
 ```
 
-### 备注
-Because Bubble Sort always requires O(n^2) swaps among the n numbers, modern textbook usually uses Insertion Sort as a good example of simple sorts, given that Insertion Sort only requires O(n) swaps.
+### Notes
+Because Bubble Sort requires O(n^2) comparisons in the worst case, modern textbook usually uses Insertion Sort as a good example of simple sorts, given that Insertion Sort at most requires O(n) comparisons.
