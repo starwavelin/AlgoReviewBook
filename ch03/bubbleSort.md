@@ -21,5 +21,5 @@ public void sort(int[] nums) {
 }
 ```
 
-### Notes
-Because Bubble Sort requires O(n^2) comparisons in the worst case, modern textbook usually uses Insertion Sort as a good example of simple sorts, given that Insertion Sort at most requires O(n) comparisons.
+### Time Complexity
+O(n^2)
