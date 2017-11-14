@@ -20,9 +20,9 @@
 	* [Bubble Sort](ch03/bubbleSort.md)
 	* [Selection Sort](ch03/selectionSort.md)
 	* [Insertion Sort](ch03/insertionSort.md)
-	* [Merge Arrays Template]
+	* [Merge Arrays Template](ch03/mergeArray.md)
 	* [Merge Sort](ch03/mergeSort.md)
-	* [Partition Arrays Template]
+	* [Partition Arrays Template](ch03/partitionArray.md)
 	* [Quick Sort](ch03/quickSort.md)
 * [Chapter 04：Graph](ch04.md)
 * [Chapter 05：Backtracking](ch05.md)
