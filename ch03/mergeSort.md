@@ -20,7 +20,8 @@ private void merge(int[] nums, int start, int mid, int end) {
 	int i = start, j = mid + 1, k = start;
 	
 	while (i <= mid && j <= end) {
-		tmp[k++] = (nums[i] < nums[j]) ? nums[i++] : nums[j++];
+		tmp[k++] = (nums[i] < nums[j]) ? nums[i++] : nums[j++]; 
+			/* nums[i] < nums[j] is an instable version; <= gives a stable version */
 	}
 	while (i <= mid) {
 		tmp[k++] = nums[i++];

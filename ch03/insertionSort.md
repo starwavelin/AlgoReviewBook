@@ -30,6 +30,6 @@ public void sort(int[] nums) {
 ### Notes
 Time Complexity:  
 Worst: O(n^2)   
-Best: O(n)  
-Best case O(n) will occur if the given numbers are already sorted in ascending order, then we only loop the nums and no insertions involved.  
+Best: O(n) comparions and O(1) swap.
+Best case O(n) will occur if the given numbers are already sorted in ascending order, then we only loop the nums and no insertions involved; or there is just one element needs to be inserted into front.    
 That said, Insertion Sort will be efficient if the given numbers are pretty much ordered.  
