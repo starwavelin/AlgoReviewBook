@@ -17,6 +17,7 @@ public int lengthOfLongestSubstring(String s) { /* could have another parameter 
 
 		maxLen = max(maxLen, r - l + 1);
 	}
+	return maxLen;
 }
 ```
 
