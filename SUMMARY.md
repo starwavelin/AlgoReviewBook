@@ -27,6 +27,7 @@
 	* [Partition Arrays Template](ch03/partitionArray.md)
 	* [Quick Sort](ch03/quickSort.md)
 * [Chapter 04：Graph](ch04.md)
+	* [图的模板](ch04/templates.md)
 * [Chapter 05：Backtracking](ch05.md)
 * [Chapter 06：Dynamic Programming](ch06.md)
 * [Chapter 07：Other Types of Trees](ch07.md)
