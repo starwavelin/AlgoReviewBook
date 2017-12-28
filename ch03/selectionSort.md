@@ -17,9 +17,7 @@ public void sort(int[] nums) {
 			}	
 		}
 		if (min != i) {
-			int t = nums[i];
-			nums[i] = nums[min];
-			nums[min] = t;
+			swap(nums, i, min);
 		}
 	}
 }
