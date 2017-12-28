@@ -14,7 +14,8 @@ for (Integer key : twoSumMap.keySet()) {...}
 所以，下面这样写是会 **compile error: unexpected type**
 ```
 Map<Integer, Integer> indegrees = new HashMap<>();
-indegrees.getOrDefault(pair[0], 0)++; // ++是无法直接把对这个primitive value进行运算后的结果赋给它自己的
+indegrees.getOrDefault(pair[0], 0)++; 
+/* ++是无法直接把对这个primitive value进行运算后的结果赋给它自己的; 核心即在于 x.foo() 得到的是一个返回值，我们不能对返回值进行++操作，只能对一个变量进行这样的操作 */
 ```
 但下面这样用put的写法就可以了：
 ```indegrees.put(pair[0], indegrees.getOrDefault(pair[0], 0) + 1);```
