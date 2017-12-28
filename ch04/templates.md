@@ -29,3 +29,19 @@ while (!q.isEmpty()) {
 	}
 }
 ```
+
+### Matrix Movement Template
+Assume you have a matrix of numbers representing the graph, and from each cell, you can either move up, down, left or right, in total 4 directions.  
+ie. [200. Nunber of Islands](https://leetcode.com/problems/number-of-islands/description/)  
+Then, assume x represents the row, and y represents the column. So we have *x-1* represents move up 1 cell and *y+1* represents move right 1 cell. Then,
+```java
+/* row, col are the original coordinates passed in from the parameters */
+int[] dx = new int[]{-1, 1, 0, 0};
+int[] dy = new int[]{0, 0, -1, 1};
+for (int i = 0; i < 4; i++) { //cuz 4 directions
+	int rowNum = row + dx[i];
+	int colNum = col + dy[i];
+	//dfs(grid, rowNum, colNum, m, n); //m - num of rows; n - num of columns.
+}
+```
+
