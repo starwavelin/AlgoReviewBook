@@ -6,6 +6,7 @@
 	* Hash 类题目
 	* Two Pointers 解法
 		* [Merge Sorted Arrays模板](ch01/twopointer/mergeSortedArrays.md)
+		* [reverse array/string模板](ch01/twopointer/reverseTemplate.md)
 	* Array 输入类
 	* LinkedList 类
 	* String 类
