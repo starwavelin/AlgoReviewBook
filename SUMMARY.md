@@ -5,6 +5,7 @@
 		* [Best Practice of Wrting Stack in Java](ch01/stack/bestpractice.md)
 	* Hash 类题目
 	* Two Pointers 解法
+		* [Merge Sorted Arrays模板](ch01/twopointer/mergeSortedArrays.md)
 	* Array 输入类
 	* LinkedList 类
 	* String 类
