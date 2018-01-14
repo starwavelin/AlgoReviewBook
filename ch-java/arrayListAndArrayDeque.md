@@ -38,11 +38,35 @@ public E remove(int index) {
 
 ### ArrayDeque
 
+#### Frequently Used Methods
+**addFirst(object)** - Amortized O(1)  
+**addLast(object)** - Amortized O(1)  
+**getFirst()** - O(1)  
+**getLast()** - O(1)  
+**removeFirst()** - O(1)  
+**removeLast()** - O(1)  
+
+#### How to circular
+1. When there are empty spaces in the head, and we append to tail  
+```tail = (tail + 1) % length```  
+2. When there are empty spaces in the end, and we append to head  
+```head = (head - 1 + length) % length``` OR  
+```head = (head - 1) & (length - 1)```  
+
+#### Resize 
+When ```tail == head```, we resize the originalCapacity to 2x.  
+Think: why 2x?  
+
 
 ### Performance Comparisons between ArrayList & ArrayDeque
-| Performance   | Add First  | Add Last  | Remove First  | Remove Last |
-| ------------- |-----------:| ---------:|--------------:|------------:|
-| ArrayList     |  O(N)      | Amortized O(1)| O(N)      |   O(1)      |
-| ArrayDeque    |  Amortized O(1) | Amortized O(1) | O(1)|   O(1)      |
-
+| Performance   | Add First       | Add Last      | Remove First  | Remove Last |
+| ------------- |----------------:| -------------:|--------------:|------------:|
+| ArrayList     |  O(N)           | Amortized O(1)| O(N)          |   O(1)      |
+| ArrayDeque    |  Amortized O(1) | Amortized O(1)| O(1)          |   O(1)      |
+Note:  
+For ArrayList,  
+Add First: ```list.add(0, el);```  
+Add Last: ```list.add(el);```  
+Remove First: ```list.remove(0, el);```  
+Remove Last: ```list.remove(el);```  
 
