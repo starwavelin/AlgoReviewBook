@@ -44,18 +44,21 @@ public E remove(int index) {
 **getFirst()** - O(1)  
 **getLast()** - O(1)  
 **removeFirst()** - O(1)  
-**removeLast()** - O(1)  
+**removeLast()** - O(1) 
+SetSomething() - O(1)   
 
 #### How to circular
 1. When there are empty spaces in the head, and we append to tail  
-```tail = (tail + 1) % length```  
+```tail = (tail + 1) % length``` OR  
+```tail = (tail + 1) & (length - 1)```  
 2. When there are empty spaces in the end, and we append to head  
 ```head = (head - 1 + length) % length``` OR  
 ```head = (head - 1) & (length - 1)```  
 
 #### Resize 
-When ```tail == head```, we resize the originalCapacity to 2x.  
+When ```tail == head```, we resize the originalCapacity to 2x. And set ```head``` to the index ```0``` of the arrayDeque, and set ```tail``` to index ```originalCapacity```  
 Think: why 2x?  
+Answer: somehow related to the Bitwise AND operation like ```head = (head - 1) & (length - 1)``` and ```tail = (tail + 1) & (length - 1)```. Here I think the reason is if 2x increase, we can always ensure ```length - 1``` is a number of ```2^n - 1``` which is always ```00...01...1``` in binary. The first 0 is + sign and all other 1s form ```2^n - 1``` to support ```&``` operation.  
 
 
 ### Performance Comparisons between ArrayList & ArrayDeque
@@ -63,6 +66,7 @@ Think: why 2x?
 | ------------- |----------------:| -------------:|--------------:|------------:|
 | ArrayList     |  O(N)           | Amortized O(1)| O(N)          |   O(1)      |
 | ArrayDeque    |  Amortized O(1) | Amortized O(1)| O(1)          |   O(1)      |
+
 Note:  
 For ArrayList,  
 Add First: ```list.add(0, el);```  
