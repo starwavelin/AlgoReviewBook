@@ -38,4 +38,5 @@
 * [Chapter Java](ch-java.md)
 	* [HashTable Tips](ch-java/hashTableTips.md)
 	* [HashTable Mechanism](ch-java/hashTableMechanism.md)
+	* [ArrayList & ArrayDeque](ch-java/arrayListAndArrayDeque.md)
 
