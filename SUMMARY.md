@@ -36,7 +36,9 @@
 * [Chapter 08：Data Structure Design](ch08.md)
 * [Chapter 09：Bitwise](ch09.md)
 * [Chapter Java](ch-java.md)
+	* [String](ch-java/string.md)
 	* [HashTable Tips](ch-java/hashTableTips.md)
 	* [HashTable Mechanism](ch-java/hashTableMechanism.md)
 	* [ArrayList & ArrayDeque](ch-java/arrayListAndArrayDeque.md)
+
 

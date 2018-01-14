@@ -44,7 +44,7 @@ public E remove(int index) {
 **getFirst()** - O(1)  
 **getLast()** - O(1)  
 **removeFirst()** - O(1)  
-**removeLast()** - O(1) 
+**removeLast()** - O(1)  
 SetSomething() - O(1)   
 
 #### How to circular
