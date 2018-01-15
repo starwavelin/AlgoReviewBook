@@ -40,5 +40,6 @@
 	* [HashTable Tips](ch-java/hashTableTips.md)
 	* [HashTable Mechanism](ch-java/hashTableMechanism.md)
 	* [ArrayList & ArrayDeque](ch-java/arrayListAndArrayDeque.md)
+	* [Interface](ch-java/interface.md)
 
 

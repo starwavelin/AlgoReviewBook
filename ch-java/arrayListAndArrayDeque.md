@@ -74,3 +74,5 @@ Add Last: ```list.add(el);```
 Remove First: ```list.remove(0, el);```  
 Remove Last: ```list.remove(el);```  
 
+Generally speaking, if we need faster head operation, we pick ArrayDeque; if we don't need to use fast head operation using ArrayList is fine.
+
