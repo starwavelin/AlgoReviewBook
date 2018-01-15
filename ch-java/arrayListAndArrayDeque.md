@@ -1,6 +1,7 @@
 # ArrayList and ArrayDeque
 
 ### ArrayList
+Uses Array in the underground  
 
 #### Frequently Used Methods
 **add(object)** - which is append, Amortized O(1)   
@@ -54,6 +55,8 @@ SetSomething() - O(1)
 2. When there are empty spaces in the end, and we append to head  
 ```head = (head - 1 + length) % length``` OR  
 ```head = (head - 1) & (length - 1)```  
+Memorize Tips: View tail and head as a scanner, ```scanner + 1``` means moving to the right and ```scanner - 1``` means moving to the left.
+
 
 #### Resize 
 When ```tail == head```, we resize the originalCapacity to 2x. And set ```head``` to the index ```0``` of the arrayDeque, and set ```tail``` to index ```originalCapacity```  

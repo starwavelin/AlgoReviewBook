@@ -37,8 +37,8 @@
 * [Chapter 09：Bitwise](ch09.md)
 * [Chapter Java](ch-java.md)
 	* [String](ch-java/string.md)
-	* [HashTable Tips](ch-java/hashTableTips.md)
 	* [HashTable Mechanism](ch-java/hashTableMechanism.md)
+	* [HashTable Tips](ch-java/hashTableTips.md)
 	* [ArrayList & ArrayDeque](ch-java/arrayListAndArrayDeque.md)
 	* [Interface](ch-java/interface.md)
 
