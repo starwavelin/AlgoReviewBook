@@ -25,7 +25,7 @@ Then for now we just need to write a default method ```forEach()``` in ```Iterab
 #### Interface vs. Abstract Class
 |               | Interface       | Abstract Class|
 |---------------|-----------------| --------------|
-| Method Types  | Abstract methods, concreate methods should have "default"; Java 8 allows static methods too.| Abstract and non-abstract methods |
+| Method Types  | Allow abstract methods; concreate methods should have "default"; Java 8 allows static methods too.| Abstract and non-abstract methods |
 | Variable Types| Variables are by default static and final | Can have final, non-final, static, non-static variables |
 | Accessibility of Data Members | Members in interfaces are public by default | Members in an abstract class can be public, protected, default, and private. |
 | Implementation| Interface cannot provide implementation of an abstract class| An abstract class can provide implementation of an interface|
@@ -35,4 +35,4 @@ Then for now we just need to write a default method ```forEach()``` in ```Iterab
 ##### Some Q and A about the Interface and Abstract Class comparisons
 1. Why are variables in an interface by default static and final?  
 "static" is because Java interfaces cannot be instantiated in their own right; the value of the variable must be assigned in a static context in which no instance exists.  
-"final" modifier is because the value assigned to the interface variable is a true constant that cannot be reassigned buy program code.
+"final" modifier is because the value assigned to the interface variable is a true constant that cannot be reassigned by program code.
