@@ -1,4 +1,4 @@
-# ArrayList and ArrayDeque
+# ArrayList, ArrayDeque and LinkedList 
 
 ### ArrayList
 Uses Array in the underground  
@@ -65,11 +65,12 @@ Think: why 2x?
 Answer: somehow related to the Bitwise AND operation like ```head = (head - 1) & (length - 1)``` and ```tail = (tail + 1) & (length - 1)```. Here I think the reason is if 2x increase, we can always ensure ```length - 1``` is a number of ```2^n - 1``` which is always ```00...01...1``` in binary. The first 0 is + sign and all other 1s form ```2^n - 1``` to support ```&``` operation.  
 
 
-### Performance Comparisons between ArrayList & ArrayDeque
-| Performance   | Add First       | Add Last      | Remove First  | Remove Last |
-| ------------- |----------------:| -------------:|--------------:|------------:|
-| ArrayList     |  O(N)           | Amortized O(1)| O(N)          |   O(1)      |
-| ArrayDeque    |  Amortized O(1) | Amortized O(1)| O(1)          |   O(1)      |
+### Performance Comparisons between ArrayList, ArrayDeque and LinkedList
+| Performance   | Add First       | Add Last      | Remove First  | Remove Last | Set | Access |
+| ------------- |----------------:| -------------:|--------------:|------------:|----:|-------:|
+| ArrayList     |  O(N)           | Amortized O(1)| O(N)          |   O(1)      |O(1) | O(1)   |
+| ArrayDeque    |  Amortized O(1) | Amortized O(1)| O(1)          |   O(1)      |O(N) | O(N)   |
+| LinkedList    |  O(1)           | O(1)          | O(1)          |   O(1)      |O(N) | O(N)   |
 
 Note:  
 For ArrayList,  
@@ -78,5 +79,41 @@ Add Last: ```list.add(el);```
 Remove First: ```list.remove(0, el);```  
 Remove Last: ```list.remove(el);```  
 
-Generally speaking, if we need faster head operation, we pick ArrayDeque; if we don't need to use fast head operation using ArrayList is fine.
+Generally speaking, if we need faster head operation, we pick ArrayDeque; if we don't need to use fast head operation using ArrayList is fine.  
+And, ArrayList is more efficient in accessing and setting an intermediate element (index based) while ArrayDeque do Not have fast access/set on an intermediate element!  
+
+For LinkedList and ArrayDeque, when doing Set and Access, you always need to find the element first, and the finding costs O(N)  
+
+
+### LinkedList
+Java's own LinkedList is a doubly-linked list.  
+```java
+public class LinkedList<E> extends ... {
+	Node<E> first;
+	Node<E> last;
+}
+```
+```java
+private static class Node<E> {
+	E item;
+	Node<E> next;
+	Node<E> prev;
+
+	Node(Node<E> prev, E element, Node<E> next) {
+		this.item = element;
+		this.next = next;
+		this.prev = prev;
+	}
+}
+```
+
+#### Why the Node class is static?
+Node class is nested within LinkedList class in Java Source Code. Nested "static class" has a special feature: anything within the nested static class cannot access anything outside this nested class but within its wrapper class; anything outside this nested static class but within its wrapper class can access members (even private) within the nested static class.  
+
+#### Size (if 64-bit machine)
+| 8 bytes | x bytes | 8 bytes |
+|:-------:|:-------:|:-------:|
+| prev    | Element | next    |  
+Here, both prev and next are memory addresses.  
+
 

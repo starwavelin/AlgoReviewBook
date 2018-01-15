@@ -39,7 +39,7 @@
 	* [String](ch-java/string.md)
 	* [HashTable Mechanism](ch-java/hashTableMechanism.md)
 	* [HashTable Tips](ch-java/hashTableTips.md)
-	* [ArrayList & ArrayDeque](ch-java/arrayListAndArrayDeque.md)
+	* [ArrayList, ArrayDeque and LinkedList](ch-java/arrayListAndArrayDeque.md)
 	* [Interface](ch-java/interface.md)
 
 
