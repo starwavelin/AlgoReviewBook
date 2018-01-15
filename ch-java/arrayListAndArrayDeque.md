@@ -114,6 +114,7 @@ Node class is nested within LinkedList class in Java Source Code. Nested "static
 | 8 bytes | x bytes | 8 bytes |
 |:-------:|:-------:|:-------:|
 | prev    | Element | next    |  
+
 Here, both prev and next are memory addresses.  
 
 
