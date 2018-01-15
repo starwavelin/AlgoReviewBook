@@ -59,6 +59,7 @@ Memorize Tips: View tail and head as a scanner, ```scanner + 1``` means moving t
 
 
 #### Resize 
+ArrayDeque's initial size is 16 (2^4).  
 When ```tail == head```, we resize the originalCapacity to 2x. And set ```head``` to the index ```0``` of the arrayDeque, and set ```tail``` to index ```originalCapacity```  
 Think: why 2x?  
 Answer: somehow related to the Bitwise AND operation like ```head = (head - 1) & (length - 1)``` and ```tail = (tail + 1) & (length - 1)```. Here I think the reason is if 2x increase, we can always ensure ```length - 1``` is a number of ```2^n - 1``` which is always ```00...01...1``` in binary. The first 0 is + sign and all other 1s form ```2^n - 1``` to support ```&``` operation.  
