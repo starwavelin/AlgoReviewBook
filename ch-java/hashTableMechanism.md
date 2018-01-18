@@ -17,7 +17,7 @@ Relate to Group Anagram.
 ### HashTable (Data Structure)
 
 
-### HashMap
+### HashMap in Java
 
 
 #### HashSet
