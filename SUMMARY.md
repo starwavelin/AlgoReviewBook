@@ -41,5 +41,6 @@
 	* [HashTable Tips](ch-java/hashTableTips.md)
 	* [ArrayList, ArrayDeque and LinkedList](ch-java/arrayListAndArrayDeque.md)
 	* [Interface](ch-java/interface.md)
+	* [Static Variable vs Instance Variable](ch-java/staticVar_vs_instanceVar.md)
 
 
