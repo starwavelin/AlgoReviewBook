@@ -1,5 +1,11 @@
 # String
 
+### String, StringBuilder, StringBuffer
+- If a string is going to remain constant throughout the program, then use String class object.  
+- StringBuilder is single thread. If a string can change (example: lots of logic and operations in the construction of the string) and will only be accessed from a single thread, use StringBuilder.  
+- StringBuffer is thread-safe. If a string can change, and will be accessed from multiple threads, use StringBuffer.  
+
+
 ### Immutability
 ```java
 String s = "abcd";

@@ -41,6 +41,12 @@
 	* [HashTable Tips](ch-java/hashTableTips.md)
 	* [ArrayList, ArrayDeque and LinkedList](ch-java/arrayListAndArrayDeque.md)
 	* [Interface](ch-java/interface.md)
+	* [Marker Interface](ch-java/markerInterface.md)
 	* [Static Variable vs Instance Variable](ch-java/staticVar_vs_instanceVar.md)
+	* [Inheritance](ch-java/inheritance.md)
+	* [Polymorphism](ch-java/polymorphism.md)
+	* [Encapsulation](ch-java/encapsulation.md)
+	* [Abstraction](ch-java/abstraction.md)
+		
 
 
