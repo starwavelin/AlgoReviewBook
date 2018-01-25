@@ -35,7 +35,7 @@
 * [Chapter 07：Other Types of Trees](ch07.md)
 * [Chapter 08：Data Structure Design](ch08.md)
 * [Chapter 09：Bitwise](ch09.md)
-* [Chapter Java](ch-java.md)
+* Chapter Java
 	* [String](ch-java/string.md)
 	* [HashTable Mechanism](ch-java/hashTableMechanism.md)
 	* [HashTable Tips](ch-java/hashTableTips.md)
@@ -47,6 +47,9 @@
 	* [Polymorphism](ch-java/polymorphism.md)
 	* [Encapsulation](ch-java/encapsulation.md)
 	* [Abstraction](ch-java/abstraction.md)
+* Chapter Unix/Linux
+	* [Commands](ch-unix/commands.md)
+	* [Tips](ch-unix/tips.md)	
 		
 
 
