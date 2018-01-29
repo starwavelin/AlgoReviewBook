@@ -44,6 +44,5 @@ compare: starwavelin
 reference: https://www.zhihu.com/question/21682976/answer/79489643
 
 #### Understand the Pull Request button
-GitHub中，如果Pull Request是在我的repo点击，表示我要把别人的repo的比如master branch拉到我的repo来，而且这一定能实现因为我对我自己的repo有绝对的权限。  
-如果Pull Request是在别人的repo点击，则为上图中的第6步，是希望别人（Joe）来拉我的修改。这不一定能实现，要看别人是否同意；他同意了也就实现了。
+GitHub中，Pull Request means 上图中的第6步，是希望别人（Joe）来拉我的修改。这不一定能实现，要看别人是否同意；他同意了也就实现了。
 
