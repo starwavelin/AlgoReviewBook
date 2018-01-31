@@ -4,20 +4,20 @@
 You can review from [here](http://blog.csdn.net/han_xiaoyang/article/details/12163251) and look for *四、选择排序*  
 
 ### 口诀
-找最小数往左放。  
+找最小数，与左互换。  
 
 ### Code
 ```java
 public void sort(int[] nums) {
 	for (int i = 0; i < nums.length - 1; i++) {
-		int min = i;
+		int minIndex = i;
 		for (int j = i + 1; j < nums.length; j++) {
-			if (nums[j] < min) {
-				min = j;
-			}	
+			if (nums[j] < nums[minIndex]) {
+				minIndex = j;
+			}
 		}
-		if (min != i) {
-			swap(nums, i, min);
+		if (minIndex != i) {
+			swap(nums, i, minIndex);
 		}
 	}
 }
