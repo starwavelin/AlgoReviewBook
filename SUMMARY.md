@@ -52,4 +52,6 @@
 	* [Tips](ch-unix/tips.md)
 * Chapter Git
 	* [Fork](ch-git/fork.md)
+* Chapter Other
+	* [Thread](ch-other/thread.md)
 	
