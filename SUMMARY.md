@@ -47,6 +47,7 @@
 	* [Polymorphism](ch-java/polymorphism.md)
 	* [Encapsulation](ch-java/encapsulation.md)
 	* [Abstraction](ch-java/abstraction.md)
+	* [Arrays, Array, Collections, Collection](ch-java/arraysCollections.md)
 * Chapter Unix/Linux
 	* [Commands](ch-unix/commands.md)
 	* [Tips](ch-unix/tips.md)
