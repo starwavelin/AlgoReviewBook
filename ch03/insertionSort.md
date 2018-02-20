@@ -11,21 +11,19 @@ You can review from [here](http://blog.csdn.net/han_xiaoyang/article/details/121
 ```java
 public void sort(int[] nums) {
 	for (int i = 1; i < nums.length; i++) { /* starting from i=1 cuz i=0 is definitely sorted */
-		int cur = nums[i];
-		int j = i - 1;
-		while (j >= 0 && nums[j] > cur) { //挪移
-			nums[j + 1] = nums[j];
+		int j = i; 
+		int cur = nums[j];
+		while (j > 0 && cur < nums[j-1]) { //挪移
+			nums[j] = nums[j-1];
 			j--;
 		}
-		if (j + 1 != i) {	//插入
-			nums[j + 1] = cur;
-		}
+		nums[j] = cur; //插入
 	}
 }
 ```
 注意：  
 1. 双指针法：移动着的j来实现挪移和插入  
-2. 要先把```nums[i]```用变量存起来，否则在挪移中，```nums[i]```被更新而没有事先存，就丧失了要插入的小的数
+2. 要先把```nums[j]```用变量存起来，否则在挪移中，```nums[j]```被更新而没有事先存，就丧失了要插入的小的数
 
 ### Notes
 Time Complexity:  
