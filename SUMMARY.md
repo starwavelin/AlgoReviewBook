@@ -10,6 +10,7 @@
 	* Array 输入类
 	* LinkedList 类
 		* [Reverse Linked List模板](ch01/linkedlist/reverseLinkedListTemplate.md)
+		* [Find Middle Node模板](ch01/linkedlist/findMiddleNodeTemplate.md)
 	* String 类
 		* [String类模板](ch01/string/template.md)
 * [Chapter 02：Binary Solution Space](ch02.md)
