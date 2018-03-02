@@ -59,6 +59,6 @@
 * Chapter Other
 	* [Thread](ch-other/thread.md)
 * Chapter OOD
-	* [Deck2](../JavaPrac/OOD/src/deck2)
-	* [Jukebox](../JavaPrac/OOD/src/jukebox)
-	* [Elevator (Single)](../JavaPrac/OOD/src/singleElevator)
+	* [Deck2](https://github.com/starwavelin/JavaPrac/tree/master/OOD/src/deck2)
+	* [Jukebox](https://github.com/starwavelin/JavaPrac/tree/master/OOD/src/jukebox)
+	* [Elevator (Single)](https://github.com/starwavelin/JavaPrac/tree/master/OOD/src/singleElevator)
