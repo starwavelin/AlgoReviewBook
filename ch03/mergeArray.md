@@ -25,9 +25,9 @@ public void merge(int[] nums1, int m, int[] nums2, int n) { /* m - length of num
 }
 ```
 
-The ```merge``` part of mergeSort is to combine the arrays of elements from ```first``` to ```mid``` and from ```mid + 1``` to ```end```  
-Surely ```first```, ```mid``` and ```end``` are given from the mergeSort function, which means their values are valid.  
-And you can see we will have ```i <= m``` and ```j <= n``` then.  
+The ```merge``` part of mergeSort is to combine the arrays of elements from ```start``` to ```mid``` and from ```mid + 1``` to ```end```  
+Surely ```start```, ```mid``` and ```end``` are given from the mergeSort function, which means their values are valid.  
+And you can see we will have ```i <= m_index``` and ```j <= n_index``` then.  
 
 ```java
 public void merge(int[] nums, int start, int mid, int end) {
@@ -44,7 +44,7 @@ public void merge(int[] nums, int start, int mid, int end) {
 		tmp[k++] = nums[j++];
 	}
 
-	for (i = start; i < k; i++) { /* when copy to original array nums, i should start from ```start``` */
+	for (i = start; i < k; i++) { /* when copy to original array nums, i should start from `start` */
 		nums[i] = tmp[i];
 	}
 }
