@@ -38,6 +38,7 @@
 * [Chapter 08：Data Structure Design](ch08.md)
 * [Chapter 09：Bitwise](ch09.md)
 * Chapter Java
+	* [Memory](ch-java/memory.md)
 	* [String](ch-java/string.md)
 	* [HashTable Mechanism](ch-java/hashTableMechanism.md)
 	* [HashTable Tips](ch-java/hashTableTips.md)
