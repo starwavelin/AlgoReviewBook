@@ -1,4 +1,4 @@
-# ArrayList, ArrayDeque and LinkedList 
+# ArrayList, ArrayDeque and LinkedList
 
 ### ArrayList
 Uses Array in the underground  
@@ -9,7 +9,7 @@ Uses Array in the underground
 **get(index)** - O(1)   
 **set(index, object)** - O(1)  
 **remove(index)** - O(n) again cuz array/arrayList doesn't allow empty cell, and due to shifting  
-**size()** - O(1) 
+**size()** - O(1)
 
 #### Resize
 When starting, an arrayList has size = 0 and elementData.length = 0; then when you add one object into this arrayList, size = 1 and elementData.length = 10. Then when size = 10, arrayList will grow to the 1.5 times of the original size.  
@@ -58,7 +58,7 @@ SetSomething() - O(1)
 Memorize Tips: View tail and head as a scanner, ```scanner + 1``` means moving to the right and ```scanner - 1``` means moving to the left.
 
 
-#### Resize 
+#### Resize
 ArrayDeque's initial size is 16 (2^4).  
 When ```tail == head```, we resize the originalCapacity to 2x. And set ```head``` to the index ```0``` of the arrayDeque, and set ```tail``` to index ```originalCapacity```  
 Think: why 2x?  
@@ -108,7 +108,7 @@ private static class Node<E> {
 ```
 
 #### Why the Node class is static?
-Node class is nested within LinkedList class in Java Source Code. Nested "static class" has a special feature: anything within the nested static class cannot access anything outside this nested class but within its wrapper class; anything outside this nested static class but within its wrapper class can access members (even private) within the nested static class.  
+Node class is nested within LinkedList class in Java Source Code. Nested "static class" has a special feature: anything within the nested static class cannot access anything outside this nested class but within its wrapper class; anything outside this nested static class but within its wrapper class can access members (even private) within the nested static class.  | "我"不能看外面但外面可以看我使用我
 
 #### Size (if 64-bit machine)
 | 8 bytes | x bytes | 8 bytes |
@@ -116,5 +116,3 @@ Node class is nested within LinkedList class in Java Source Code. Nested "static
 | prev    | Element | next    |  
 
 Here, both prev and next are memory addresses.  
-
-
