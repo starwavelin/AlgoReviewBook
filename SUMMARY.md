@@ -1,18 +1,5 @@
 # Summary
 
-* [Chapter 01：Linear Solution Space](ch01.md)
-	* Stack 类题目
-		* [Best Practice of Wrting Stack in Java](ch01/stack/bestpractice.md)
-	* Hash 类题目
-	* Two Pointers 解法
-		* [Merge Sorted Arrays模板](ch01/twopointer/mergeSortedArrays.md)
-		* [reverse array/string模板](ch01/twopointer/reverseTemplate.md)
-	* Array 输入类
-	* LinkedList 类
-		* [Reverse Linked List模板](ch01/linkedlist/reverseLinkedListTemplate.md)
-		* [Find Middle Node模板](ch01/linkedlist/findMiddleNodeTemplate.md)
-	* String 类
-		* [String类模板](ch01/string/template.md)
 * [Chapter 02：Binary Solution Space](ch02.md)
 	* Binary Search 类题目
 		* [二分搜索模板](ch02/binarySearch/template.md)
