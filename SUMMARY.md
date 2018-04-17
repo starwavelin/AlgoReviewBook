@@ -1,15 +1,11 @@
 # Summary
-
-* [Chapter 02：Binary Solution Space](ch02.md)
-	* Binary Search 类题目
-		* [二分搜索模板](ch02/binarySearch/template.md)
-		* [二维一维数组的转换](ch02/binarySearch/2D-1D.md)
+* Chapter 02：Binary Solution Space
 	* Binary Tree 类题目
 		* [BFS模板](ch02/binaryTree/bfs.md)
 		* [DFS模板](ch02/binaryTree/dfs.md)
 		* [D&C模板](ch02/binaryTree/d&c.md)
 		* [Binary Tree Max Path Sum from Root](ch02/binaryTree/binaryTreeMaxPathSumFromRoot.md)
-* [Chapter 03：Sorting](ch03.md)
+* Chapter 03：Sorting
 	* [Bubble Sort](ch03/bubbleSort.md)
 	* [Selection Sort](ch03/selectionSort.md)
 	* [Insertion Sort](ch03/insertionSort.md)
@@ -17,36 +13,37 @@
 	* [Merge Sort](ch03/mergeSort.md)
 	* [Partition Arrays Template](ch03/partitionArray.md)
 	* [Quick Sort](ch03/quickSort.md)
-* [Chapter 04：Graph](ch04.md)
+* Chapter 04：Graph
 	* [图的模板](ch04/templates.md)
-* [Chapter 05：Backtracking](ch05.md)
-* [Chapter 06：Dynamic Programming](ch06.md)
-* [Chapter 07：Other Types of Trees](ch07.md)
-* [Chapter 08：Data Structure Design](ch08.md)
+* Chapter 05：Backtracking
+* Chapter 06：Dynamic Programming
+* Chapter 07：Other Types of Trees
+* Chapter 08：Data Structure Design
 * [Chapter 09：Bitwise](ch09.md)
-* Chapter Java
-	* [Memory](ch-java/memory.md)
-	* [String](ch-java/string.md)
-	* [HashTable Mechanism](ch-java/hashTableMechanism.md)
-	* [HashTable Tips](ch-java/hashTableTips.md)
-	* [ArrayList, ArrayDeque and LinkedList](ch-java/arrayListAndArrayDeque.md)
-	* [Interface](ch-java/interface.md)
-	* [Marker Interface](ch-java/markerInterface.md)
-	* [Static Variable vs Instance Variable](ch-java/staticVar_vs_instanceVar.md)
-	* [Inheritance](ch-java/inheritance.md)
-	* [Polymorphism](ch-java/polymorphism.md)
-	* [Encapsulation](ch-java/encapsulation.md)
-	* [Abstraction](ch-java/abstraction.md)
-	* [Arrays, Array, Collections, Collection](ch-java/arraysCollections.md)
-	* [IO](ch-java/io.md)
-* Chapter Unix/Linux
-	* [Commands](ch-unix/commands.md)
-	* [Tips](ch-unix/tips.md)
-* Chapter Git
-	* [Fork](ch-git/fork.md)
-* Chapter Other
-	* [Thread](ch-other/thread.md)
-* Chapter OOD
+* Java
+	* [Best Practice of Writing Stack](java/stack.md)
+	* [Memory](java/memory.md)
+	* [String](java/string.md)
+	* [HashTable Mechanism](java/hashTableMechanism.md)
+	* [HashTable Tips](java/hashTableTips.md)
+	* [ArrayList, ArrayDeque and LinkedList](java/arrayListAndArrayDeque.md)
+	* [Interface](java/interface.md)
+	* [Marker Interface](java/markerInterface.md)
+	* [Static Variable vs Instance Variable](java/staticVar_vs_instanceVar.md)
+	* [Inheritance](java/inheritance.md)
+	* [Polymorphism](java/polymorphism.md)
+	* [Encapsulation](java/encapsulation.md)
+	* [Abstraction](java/abstraction.md)
+	* [Arrays, Array, Collections, Collection](java/arraysCollections.md)
+	* [IO](java/io.md)
+* Unix/Linux
+	* [Commands](unix/commands.md)
+	* [Tips](unix/tips.md)
+* Git
+	* [Fork](git/fork.md)
+* Other
+	* [Thread](other/thread.md)
+* OOD
 	* [Deck2](https://github.com/starwavelin/JavaPrac/tree/master/OOD/src/deck2)
 	* [Jukebox](https://github.com/starwavelin/JavaPrac/tree/master/OOD/src/jukebox)
 	* [Elevator (Single)](https://github.com/starwavelin/JavaPrac/tree/master/OOD/src/singleElevator)
