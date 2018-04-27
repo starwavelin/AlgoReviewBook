@@ -1,10 +1,10 @@
-## SQL Interview Questions
+# SQL Interview Questions
 
-#### What is a join?  
+### What is a join?  
 A keyword used to query data from more tables based on the relationship between
 the fields of the tables. Keys play a major role when JOINs are used.
 
-#### What are the types of join and explain each?
+### What are the types of join and explain each?
 There are various types of join which can be used to retrieve data and it
 depends on the relationship between tables.
 
@@ -30,12 +30,12 @@ Return all records when there is a match in either
 left (table1) or right (table2) table records.
 Matched records are returned once and non-matched records will be kept.
 
-#### What is normalization?
+### What is normalization?
 The process of minimizing redundancy and dependency by organizing fields and
 table of a database. The main aim of Normalization is to add, delete or modify
 field that can be made in a single table.
 
-#### What are all the different normalizations?
+### What are all the different normalizations?
 The normal forms can be divided into 5 forms, and they are explained below -.
 
 **First Normal Form (1NF):**
@@ -54,17 +54,17 @@ This should meet all requirements of 2NF. Removing the columns which are not dep
 
 Meeting all the requirements of third normal form and it should not have multi- valued dependencies.
 
-#### What is a View?
+### What is a View?
 A view is a virtual table which consists of a subset of data contained in a table.
 Views are not virtually present, and it takes less space to store.
 View can have data of one or more tables combined, and it is depending on the relationship.
 
-#### What is an Index?
+### What is an Index?
 An index is performance tuning method of allowing faster retrieval of
 records from the table. An index creates an entry for each value
 and it will be faster to retrieve data.
 
-#### What are all the different types of indexes?
+### What are all the different types of indexes?
 **Unique Index**
 
 This indexing does not allow the field to have duplicate values if
@@ -83,7 +83,7 @@ and maintains logical order of data. Each table can have 999 non-clustered index
 
 [索引的类型，适用范围，创建，优化](https://www.cnblogs.com/AK2012/archive/2013/01/04/2844283.html)
 
-#### How to create an index?
+### How to create an index?
 example
 ```sql
 CREATE NONCLUSTERED INDEX IX_ProductVendor_VendorID   
