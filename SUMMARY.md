@@ -1,6 +1,5 @@
 # Summary
 * Chapter 03：Sorting
-	* [Bubble Sort](ch03/bubbleSort.md)
 	* [Selection Sort](ch03/selectionSort.md)
 	* [Insertion Sort](ch03/insertionSort.md)
 	* [Merge Arrays Template](ch03/mergeArray.md)
