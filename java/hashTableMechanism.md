@@ -4,7 +4,7 @@ In the context of algorithm discussion, we can use the term *HashTable* to discu
 
 In this document we particularly focus on the machenism of **HashMap** in Java.
 
-### Waht is Hash?
+### What is Hash?
 
 
 ### What is HashCode？
