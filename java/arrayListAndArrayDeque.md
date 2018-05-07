@@ -1,7 +1,15 @@
 # ArrayList, ArrayDeque and LinkedList
 
 ### ArrayList
+Resizable Array Implementation  
 Uses Array in the underground  
+
+#### Interview Questions
+1. How does ArrayList grow to itself?
+2. What is the growth rate?
+3. Time Complexity of appending? -- Amortized O(1) cuz resizing may happen
+4. Time Complexity of removing? -- O(n)
+For Question 1 and 2, see the section "Resize"
 
 #### Frequently Used Methods
 **add(object)** - which is append, Amortized O(1)   
