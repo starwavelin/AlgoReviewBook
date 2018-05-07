@@ -52,8 +52,9 @@ Linear Probing解决Collision的办法容易导致的问题 Clustering (元素�
 
 
 #### LinkedHashMap
-
-
+LinkedList + HashMap   
+LInkedList maintains the entries in their insertion order  
+Then, traversing LinkedHashMap preserves the entry insertion order
 
 ### Q and A
 
