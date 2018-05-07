@@ -54,7 +54,9 @@ public E remove(int index) {
 **getLast()** - O(1)  
 **removeFirst()** - O(1)  
 **removeLast()** - O(1)  
-SetSomething() - O(1)   
+--SetSomething() - ArrayDeque does NOT support set() or access(), if you want
+to set some value or search some value in ArrayDeque, only you can do is linear
+searching it costing O(N)   
 
 #### How to circular
 1. When there are empty spaces in the head, and we append to tail  
@@ -77,7 +79,7 @@ Answer: somehow related to the Bitwise AND operation like ```head = (head - 1) &
 | Performance   | Add First       | Add Last      | Remove First  | Remove Last | Set | Access |
 | ------------- |----------------:| -------------:|--------------:|------------:|----:|-------:|
 | ArrayList     |  O(N)           | Amortized O(1)| O(N)          |   O(1)      |O(1) | O(1)   |
-| ArrayDeque    |  Amortized O(1) | Amortized O(1)| O(1)          |   O(1)      |O(N) | O(N)   |
+| ArrayDeque    |  Amortized O(1) | Amortized O(1)| O(1)          |   O(1)      |N/A  | N/A    |
 | LinkedList    |  O(1)           | O(1)          | O(1)          |   O(1)      |O(N) | O(N)   |
 
 Note:  
