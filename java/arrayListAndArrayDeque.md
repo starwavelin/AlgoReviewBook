@@ -29,7 +29,7 @@ Cuz 1.618 is a float number, 1.5 is a better option.
 Wait? Isn't 1.5 also a float number? Let's see how we can get 1.5 in code:  
 (1) len = len * 1.5  
 (2) len = len * 3 / 2  
-(3) len = len + len >> 1  
+(3) len = len + (len >> 1) // 注意Java中位运算的优先级小于一般四则运算，所以这里要加括号！！  
 Option 1 will give us a double result, Option 2, times 3 may cause integer overflow. So, Option 3 is the best alternative in which ```len >> 1``` gives us a half of original length and make final result 1.5 times the original in int value. This is also why we don't use 1.618 cuz we cannot use bit operation to form 1.618.  
 
 #### Core code of Remove
