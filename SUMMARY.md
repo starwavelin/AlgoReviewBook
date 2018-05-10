@@ -1,5 +1,6 @@
 # Summary
 * Java
+	* [Interview Questions](java/interviewQuestions.md)
 	* [Best Practice of Writing Stack](java/stack.md)
 	* [Memory](java/memory.md)
 	* [String](java/string.md)
@@ -15,6 +16,8 @@
 	* [Abstraction](java/abstraction.md)
 	* [Arrays, Array, Collections, Collection](java/arraysCollections.md)
 	* [IO](java/io.md)
+* System Design
+	* [How To Design a System](sys/howTo.md)
 * OOD
 	* [Deck2](https://github.com/starwavelin/JavaPrac/tree/master/OOD/src/deck2)
 	* [Jukebox](https://github.com/starwavelin/JavaPrac/tree/master/OOD/src/jukebox)
